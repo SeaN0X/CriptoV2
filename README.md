@@ -24,7 +24,7 @@ node criptov2 <encrypt/decrypt> "file<<>FILEPATH" <numbers only password>
 ### Encryption example:
 node criptov2 encrypt "file<<>C:/Users/PC/Desktop/file.txt" 2958923123591
 
-Returns> "Sucessfully encrypted file! Saved to PATH: file<<>C:/Users/PC/Desktop/file.txt"
+Returns> "Sucessfully encrypted file! Saved to PATH: C:/Users/PC/Desktop/file.txt"
 
   
 # (Important Note): The way that files and plain text are encrypted is different from each other, so if you encrypt plain text and try to decrypt it using file decryption it won't work.
